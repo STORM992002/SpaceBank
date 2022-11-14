@@ -1,0 +1,146 @@
+* {
+    /* background:#57cc99; */
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    color:#147df5;
+}
+.ul {
+    list-style: none;
+}
+
+#header {
+    background: #1b262c;
+    box-shadow: #BBE1FA 0 1px;
+    height: 70px;
+    width: 100%;
+    z-index: 6;
+    transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+    display: block;
+    position: relative;
+}
+
+
+.h-container {
+    padding: 0px 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header--txt-color {
+    color: #BBE1FA;
+}
+
+.uline {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#home {
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+#tools {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+#gopro {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+.go {
+    color: #ff99c8;
+}
+
+.side {}
+
+#in {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+#up {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+    color: white;
+    background-color: #4361ee;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.up {
+    color: white;
+}
+
+#body {
+    background: #57cc99;
+}
+hr{
+    border-style:solid;
+    border-width: 0.5px;
+    color:#b1a7a6 ;
+    margin-left: 2.5vw;
+    width: 45vw;
+}
+.credit{
+    font-size: 30px;
+    margin-top: 2vh;
+    margin-left: 26vw;
+    z-index: 1;
+    font-weight: 600;
+}
+.inner {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #80ed99;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 8vh;
+}
+
+.inner span {
+    font-size: 16px;
+    margin-left: 3vw;
+    margin-top: 4vh;
+}
+
+.topic {
+    margin-left: 10vw;
+    margin-top: 3vh;
+    height: 10vh;
+    margin-right: 3vw;
+}
+
+.topic p {
+    margin-top: 3px;
+    
+}
+
+.topic a {
+    text-decoration: none;
+    color: #22577a;
+    font-weight: 900;
+    font-size: 18px;
+}
